@@ -25,7 +25,7 @@ class ADSearch{
 	private $pass = 'VerySecurePasswordInTheCodeLOL';
 	private $host = '0.0.0.0';
 	private $port = '389';
-	private $base = 'DC=examplpe,DC=com';
+	private $base = 'DC=example,DC=com';
 	
 	function __construct($_user = null,$_pass = null,$_host = null,$_port = null,$_base = null) 
 	{
